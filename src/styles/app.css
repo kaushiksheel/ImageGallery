@@ -1,0 +1,54 @@
+.image-container .container {
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  padding: 5em 0em;
+}
+
+.image-container .container .upload-container {
+  text-align: center;
+}
+
+.image-container .container .upload-container label img {
+  height: 70px;
+  width: 70px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  cursor: pointer;
+}
+
+.image-container .container .upload-container input {
+  display: none;
+}
+
+.image-container .container .upload-container P {
+  font-size: 1.8rem;
+}
+
+.gallery .image-gallery {
+  padding: 2em 1em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  height: 0;
+}
+
+.gallery .image-gallery img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+}
+
+.progress-bar {
+  background-color: red;
+  margin-top: 12px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  height: 2px;
+  color: white;
+}
+/*# sourceMappingURL=app.css.map */

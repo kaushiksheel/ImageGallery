@@ -1,0 +1,52 @@
+.image-container{
+    .container{
+    display: grid;
+    place-items: center;
+    padding: 5em 0em;
+        .upload-container{
+            text-align: center;
+            label{
+                img{
+                    height: 70px;
+                    width: 70px;
+                    object-fit: contain;
+                    cursor: pointer;
+                }
+            }
+            input{
+                display: none;
+            }
+            P{
+                font-size: 1.8rem;
+          
+            }
+        }
+    }
+}
+
+
+
+.gallery{
+    .image-gallery{
+        padding: 2em 1em;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        height: 0;
+        img{
+            width: 100%;
+            object-fit: cover;
+            cursor: pointer;
+        }
+    }
+}
+
+.progress-bar{
+   background-color: red;
+   margin-top: 12px;
+   transition: all .4s ease-in-out;
+   height: 2px;
+   color: white;
+}
+

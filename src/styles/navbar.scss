@@ -1,0 +1,21 @@
+.navbar{
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1em 1em;
+        p{
+            font-size: 2rem;
+            font-weight: bold;
+            color: #950EFF;
+            &:nth-of-type(2){
+                font-size: 1.5rem;
+                font-weight: 500;
+                color: black;
+                span{
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
