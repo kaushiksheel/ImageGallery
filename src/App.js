@@ -22,7 +22,7 @@ const handleChange=e=>{
     setError(null)
   }else{
     setFile(null)
-    setError('Please selected image file, only supported png/jpeg formats')
+    setError('Please select image file, only support png/jpeg formats')
   }
 }
 
